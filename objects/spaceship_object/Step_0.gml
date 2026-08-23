@@ -1,4 +1,9 @@
-// Movement using hspeed and vspeed
+// hp
+if (hp <= 0) {
+    instance_destroy();
+}
+
+// movement using hspeed and vspeed
 
 if (keyboard_check(vk_right))
 {
@@ -61,3 +66,7 @@ y += vspeed;
 // Keep spaceship inside room
 x = clamp(x, sprite_width / 2, room_width - sprite_width / 2);
 y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
+
+// timer
+timer += 1 / room_speed;
+
