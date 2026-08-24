@@ -27,6 +27,7 @@
   },
   "name":"Departure",
   "resources":[
+    {"id":{"name":"shield_object","path":"objects/shield_object/shield_object.yy",},},
     {"id":{"name":"spaceship_object","path":"objects/spaceship_object/spaceship_object.yy",},},
     {"id":{"name":"star_object","path":"objects/star_object/star_object.yy",},},
     {"id":{"name":"main_room","path":"rooms/main_room/main_room.yy",},},
