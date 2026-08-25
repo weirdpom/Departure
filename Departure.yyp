@@ -27,11 +27,13 @@
   },
   "name":"Departure",
   "resources":[
+    {"id":{"name":"enemy_object","path":"objects/enemy_object/enemy_object.yy",},},
     {"id":{"name":"shield_object","path":"objects/shield_object/shield_object.yy",},},
     {"id":{"name":"spaceship_object","path":"objects/spaceship_object/spaceship_object.yy",},},
     {"id":{"name":"star_object","path":"objects/star_object/star_object.yy",},},
     {"id":{"name":"main_room","path":"rooms/main_room/main_room.yy",},},
     {"id":{"name":"background_sprite","path":"sprites/background_sprite/background_sprite.yy",},},
+    {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},},
     {"id":{"name":"shield_sprite","path":"sprites/shield_sprite/shield_sprite.yy",},},
     {"id":{"name":"spaceship_sprite","path":"sprites/spaceship_sprite/spaceship_sprite.yy",},},
     {"id":{"name":"star_sprite","path":"sprites/star_sprite/star_sprite.yy",},},

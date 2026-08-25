@@ -1,3 +1,4 @@
+// shield 
 if (instance_exists(spaceship_object))
 {
     x = spaceship_object.x;
