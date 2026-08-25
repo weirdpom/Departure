@@ -1,5 +1,7 @@
 // hp
 hp = 1;
+shield_hp = 1;
+damage_cooldown = 0;
 
 // cursor becomes invisible 
 window_set_cursor(cr_none);

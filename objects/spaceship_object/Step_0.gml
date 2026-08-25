@@ -3,6 +3,11 @@ if (hp <= 0) {
     instance_destroy();
 }
 
+if (damage_cooldown > 0)
+{
+    damage_cooldown -= 1;
+}
+
 // movement using hspeed and vspeed
 
 if (keyboard_check(vk_right))
