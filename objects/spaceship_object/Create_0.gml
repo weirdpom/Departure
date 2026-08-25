@@ -11,3 +11,6 @@ timer = 0;
 
 // shield 
 instance_create_layer(x, y, "Shield_Instances", shield_object);
+
+// game over
+game_over = false;

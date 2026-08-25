@@ -7,6 +7,12 @@ if (damage_cooldown <= 0)
     else
     {
         hp -= 1;
+
+        if (hp <= 0)
+        {
+            global.final_points = floor(timer);
+            room_goto(gameover_room);
+        }
     }
 
     damage_cooldown = 30;
